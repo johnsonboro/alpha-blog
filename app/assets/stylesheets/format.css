@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 800px;
+    /* Change this value to customize the content area*/
+    margin: 0 auto;
+}
+
+.text {
+	
+	
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: "16";
+	font-style: bold;
+
+}
+
+.background {
+	
+	
+	background-color:#0B7B8F;
+	backface-visibility: hidden;
+}
+
+.whitebackground {
+	background-color: #fdaaff;
+}
+
+
+.title {
+	
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 2.5em;
+	color: orange;
+	
+}
+
+.HeaderMe {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-align: left;
+	/*text-indent: 200px;*/
+	color: black;
+	
+}
+.HeaderMeW {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-align: left;
+	/*text-indent: 200px;*/
+	color: white;
+	
+}
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+body {
+	background-color: #0B7B8F;
+}
+
+.required {color:red; font-weight:bold}
+.center-block {float:none}
+.human {margin: 0 0 0 2px}
+.div1 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.div2 {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.form-control-inline {
+    min-width: 0;
+    width: 50px;
+	height: 20px;
+    display: inline;
+}
+	.form-control-inline-large {
+    min-width: 0;
+    width: 200px;
+	height: 20px;
+    display: inline;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #127EF1;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #127EF1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #12ADF1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #12ADF1;
+}
+
+.box {align-left: 10px}
+/* Simple Dropdown Button */
+ 
+  ul {list-style: none;padding: 0px;}
+  ul li {display: block;position: relative;float: left;border:0px solid #000}
+  li ul {display: none;}
+  ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background: #c66fa2;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #c66fa2;}
+  li:hover li a:hover {background: #000;}
+  #drop-nav li ul li {border-top: 0px;}
+
+
+/* comments */
+	.comments {
+	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font: Times;
+	font size: "16";
+	color: yellow;
+	font-style: bold;
+	text-align: left;
+	
+}
+	
+
+/* large text box */
+	
+.form-textbox {
+
+	height: 20px !important;
+	width: 40% !important;
+	font-size: 16px !important; 
+    position: relative;
+    display: inline; 
+	resize: both;
+    overflow: scroll; 
+	
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	padding: 10px; 
+    text-decoration: none;
+    color: initial;
+	height: 20px !important;
+	width: relative !important;
+	font-size: 16px !important; 
+}
