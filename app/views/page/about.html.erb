@@ -12,119 +12,16 @@
 </head>
 
 <body class="HeaderMeW">
-<p><Header class="title">Cargo Exchange Limited</Header>
-</p>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Return to Haulier menu?</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="reiluah.html">Yes please!</a>
-  </div>
-</div>
-
-<p>
-	<div class="comments">(This dropdown should be the only thing showing on the page initially. Then it should show different options based on the answer. The below option is for groupage.)
-	</div>
+<p><Header class="title">Alpha Blog</Header>
 </p>
 
-<form class="form-horizontal">
-  <div class="form-inline form-control-inline-large">
-    <label for="Origin">From</label>
-    <input type="text" class="form-control form-control-inline-large" id="Origin" placeholder="Enter Collection Point">
 
-    <label for="Destination">To</label>
-    <input type="text" class="form-control form-control-inline-large" id="Destination" placeholder="Enter Delivery Point">
-  </div>
-  <p></p>
- <div class="form-inline form-control-inline-large">
-  	<label for="HowManyPieces">How many pieces do you want to ship?</label>
-  	<input type="text" class="form-control form-control-inline-large" placeholder="No of pieces">
-	</div>
-	<p></p>
-<div class="form-control">
-  	<label for="TypeOfPackage">What type of packages do you want to ship?</label>
-  	<input type="text" class="form-control form-control-inline-large" placeholder="Package type">
-  	
-  </div>
-  <p></p>
-<p>
-<div class="comments">
-  		(We need to add a way for multiple items of different shapes and sizes can be selected.)
-  	</div>
-  	
-  </p>
-  
-  <form action="upload.php" method="post" enctype="multipart/form-data">
-    If you have a photograph or drawing, please upload an image here:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit"> 
-</form>
-  <p></p>
-<form action="">
-<!--
-<input type="checkbox" name="Hazardous" value="Hazardous">My cargo is hazardous<br>
-<p>
-	<div class="comments">
-		(This should then show a dropdown asking for Haz Class, UN number and packing group. Ideally an upload for the MSDS could be added here which would email the full MSDS to the haulier)
-	</div>
-</p>
-<input type="checkbox" name="Stackable" value="Stackable">My cargo cannot be stacked 
-</form>
- <p></p>
 
---> 
 
-<div class="form-textbox">
-  	<label for="OtherInformation">Please enter any specific requirements here:</label>
-  	<input type="text" class="form-textbox" placeholder="Any other information">
-  	
-  </div> 
-  
-  <p></p>
-  
-  <label for="date">Do you have a date for when you want the cargo collecting?</label>
-  <input class="date-input-native" id="date" type="date" name="date" min="2016-11-03" max="2027-02-11">
-<!-- <input class="date-input-fallback" id="alt" type="text" placeholder="Pick A Date"> -->
-<div id="picker" hidden></div>
 
-<p></p>
-
-<div class="form-control">
-	<label for="PriceOnly">Or do you just need a price for now for quotation purposes?</label>
-	<input type="checkbox" name="PriceOnly" value="PriceOnly">
-</div>
-
-<p></p>
-
-<p class="HeaderMeW">Please note, for roadfreight prices it can take several hours for hauliers to locate space on their vehicles so the price is not an instant quotation<br><br>
- However, we can notify you as soon as you receive a quotation from our hauliers.
- <br><br>
- Please use one of the below options if you would like us to notify you as quotations are received.
+<p class="HeaderMeW">This is something about me
  </p>
   
-  <div class="form-control">
-	<label for="emailnotification">notification by email?</label>
-	<input type="checkbox" name="emailnotification" value="emailnotification">
-</div>
-  
-    <div class="form-control">
-	<label for="textnotification">notification by text?</label>
-	<input type="checkbox" name="textnotification" value="textnotification">
-</div>
- 
-   <div class="form-control">
-	<label for="desktopnotification">notification on your desktop?</label>
-	<input type="checkbox" name="desktopnotification" value="desktopnotification">
-</div>
-   <div class="form-control">
-	<label for="appnotification">notification by app?</label>
-	<input type="checkbox" name="appnotification" value="appnotification">
-</div>
-  <p></p>
-<a href="deliame.html" class="button">Proceed to next step</a>
-  
-
-  
-</form>
 
 <!-- javascript for date function -->
 
@@ -196,6 +93,6 @@
 }());
 	
 	</script>
-<%= link_to image_tag('phrexi_logo.jpg'), root_path %>
+<%= link_to image_tag('boro.jpg'), root_path %>
 </body>
 </html>
