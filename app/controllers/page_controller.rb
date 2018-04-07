@@ -8,4 +8,7 @@ class PageController < ApplicationController
     
   end
   
+  def index
+    
+  end
 end
